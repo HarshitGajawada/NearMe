@@ -7,5 +7,3 @@ place=input("Where do you want to visit? ")
 while place not in places:
     print("Please choose places from the options only.")
     place=input("Where do you want to visit? ")
-
-print("Hello Github.")
