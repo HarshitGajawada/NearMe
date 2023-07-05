@@ -1,9 +1,13 @@
-print()
-print("Welcome to the NearBy App.")
-print()
-print("1) Movies\n2) Hospital\n3) Eateries\n4) Petrol Station\n5) Banks")
-places=["Movies","Hospital", "Eateries", "Petrol Station", "Banks"]
-place=input("Where do you want to visit? ")
-while place not in places:
-    print("Please choose places from the options only.")
-    place=input("Where do you want to visit? ")
+print("Welcome to the NearBy App.\n\n")
+print("Where do you want to visit?\n")
+print("1 - Theatres\n2 - Hospitals\n3 - Eateries\n4 - Petrol Stations\n5 - Banks")
+place=int(input("Press the corresponding number(1-5): "))
+
+if not 1 <= place <= 5:
+    while not 1 <= place <= 5:
+        place = int(input("enter valid number(1-5): "))
+        
+    
+    
+
+    
