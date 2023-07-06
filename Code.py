@@ -9,12 +9,26 @@ if not 1 <= place <= 5:
     while not 1 <= place <= 5:
         place = int(input("enter valid number(1-5): "))
 
+json_files = ['theatres.json','hospitals.json','eateries.json','petrolstations.json','banks.json']
 
-if place==1:
-    with open('theatres.json','r') as theatres:
-        t = json.load(theatres)
-    for i in t["theatres"]:
-        print(i,"is",t["theatres"][i],"km away from you.\n")
+
+# if place==1:
+#     with open('theatres.json','r') as theatres:
+#         t = json.load(theatres)
+#     for i in t["theatres"]:
+#         print(i,"is",t["theatres"][i],"km away from you.\n")
+
+def places(place,json_files):
+    with open(json_files[place-1],'r') as file_name:
+        d = json.load(file_name)
+    for keys in d:
+        for nkeys in d[keys]:
+            print(nkeys,"is",d[keys][nkeys],"km away from you.\n")
+places(place,json_files)
+
+
+
+
 
         
         
