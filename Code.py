@@ -16,13 +16,6 @@ while check==99:
     else:
         place=input("enter valid input(1-5)")
         check=99
-    
-# if  place.isdigit():
-#     place=int(place)
-#     while not 1 <= place <= 5 :
-#         place = int(input("enter valid number(1-5): "))
-# else:   
-#     print("enter valid number(1-5):") 
 
 json_files = ['theatres.json','hospitals.json','eateries.json','petrolstations.json','banks.json']
 
