@@ -6,6 +6,7 @@ place=int(input("Press the corresponding number(1-5): "))
 if not 1 <= place <= 5:
     while not 1 <= place <= 5:
         place = int(input("enter valid number(1-5): "))
+        print("changes")
         
         
     
