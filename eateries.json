@@ -2,6 +2,9 @@
     "eateries": {
         "McDonald's":0.6,
         "KFC":0.7,
-        "Minerva Coffee Shop":1
+        "Minerva Coffee Shop":1,
+        "Bawarchi":1.5,
+        "Naturals":1.4,
+        "CreamStone":1.6
     }
 }

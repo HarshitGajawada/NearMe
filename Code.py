@@ -1,6 +1,6 @@
 import json
 
-print("Welcome to the NearBy App.\n\n")
+print("Welcome to the NearMe App!!\n\n")
 print("Where do you want to visit?\n")
 print("1 - Theatres\n2 - Hospitals\n3 - Eateries\n4 - Petrol Stations\n5 - Banks")
 place=input("Press the corresponding number(1-5): ")
@@ -33,6 +33,7 @@ def places(place,json_files):
         for nkeys in d[keys]:
             print(nkeys,"is",d[keys][nkeys],"km away from you.\n")
 places(place,json_files)
+
 
 
 
