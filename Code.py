@@ -24,6 +24,7 @@ def places(place,json_files):
     for keys in d:
         for nkeys in d[keys]:
             print(nkeys,"is",d[keys][nkeys],"km away from you.\n")
+            
 places(place,json_files)
 
 

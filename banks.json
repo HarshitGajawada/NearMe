@@ -1,0 +1,8 @@
+{
+    "banks" : {
+        "Karnataka Bank":1.0,
+        "HDFC Bank":0.85,
+        "Canara Bank":0.75,
+        "ICICI Bank":0.55
+    }
+}
