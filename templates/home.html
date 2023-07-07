@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NearMe</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-red-300">
+    <div class="m-6 text-center text-5xl font-bold ">Welcome to the NearMe app!</div>
+    <div class="m-14 text-4xl text-center font-semibold ">Where would you like to visit?</div>
+    <div class="flex items-center justify-center mt-28 space-x-44">
+        <div class="flex flex-col items-center justify-center w-36 text-xl font-semibold">
+            <a href="{{ url_for('theatres') }}" style="text-decoration: none;">Theatres</a>
+            <img src="/static/theatre.png" alt="" >
+        </div>
+        <div class="flex flex-col items-center justify-center w-36 text-xl font-semibold">
+            <a href="#" style="text-decoration: none;">Hospitals</a>
+            <img src="/static/hospital.png" alt="" >
+        </div>
+        <div class="flex flex-col items-center justify-center w-36 text-xl font-semibold">
+            <a href="#" style="text-decoration: none;">Eateries</a>
+            <img src="/static/restaurant.png" alt="" >
+        </div>
+        <div class="flex flex-col items-center justify-center w-36 text-xl font-semibold">
+            <a href="#" style="text-decoration: none;">Petrol Stations</a>
+            <img src="/static/gas.png" alt="" >
+        </div>
+        <div class="flex flex-col items-center justify-center w-36 text-xl font-semibold">
+            <a href="#" style="text-decoration: none;">Banks</a>
+            <img src="/static/bank.png" alt="" >
+        </div>
+    </div>
+
+</body>
+</html>
