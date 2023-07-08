@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theatres</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+</head>
+<body>
+    {% for i in t_dict["theatres"] %}
+    <div>
+        <p>{{i}} is {{t_dict["theatres"][i]}} km away from you.</p>
+    </div>
+    {% endfor %}
+</body>
+</html>
