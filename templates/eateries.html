@@ -6,16 +6,16 @@
     <title>Eateries</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-blue-200">
     <div class="text-center mt-48 font-semibold text-[1.5rem]">
         {% for i in t_dict["eateries"] %}
-        <div >
+        <div class="p-4">
             <p>{{i}} is {{t_dict["eateries"][i]}} km away from you.</p>
         </div>
         {% endfor %}
         <div class="mt-8">
-            <div class="p-4 mb-4">Would you like to visit the nearest theatre?</div>
-            <a href="https://www.google.com/maps?rlz=1C1RXQR_enIN1030IN1030&output=search&q=mcdonald%27s&entry=mc&sa=X&ved=2ahUKEwiT_Pnr9oGAAxVWR2wGHSQjCMkQ0pQJegQIDRAB" class="text-decoration:none font-bold border-2 border-slate-700 rounded-md py-2 px-4 bg-slate-200">YES</a> 
+            <div class="p-4 mb-4">Would you like to visit the nearest eatery?</div>
+            <a href="https://www.google.com/maps/place/McDonald's/@17.4012077,78.486762,17z/data=!3m1!4b1!4m6!3m5!1s0x3bcb998aebd54aff:0xfb3755c84a3edbcd!8m2!3d17.4012077!4d78.486762!16s%2Fg%2F1v3_13rn?authuser=0&hl=en&entry=ttu" class="text-decoration:none font-bold border-2 border-slate-700 rounded-md py-2 px-4 bg-slate-200">YES</a> 
         </div>
     </div>
 </body>
