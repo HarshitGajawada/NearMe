@@ -1,8 +1,8 @@
 {
     "hospitals" : {
-        "Apollo":"1.4",
-        "Woodlands":"1.5",
-        "Excell":"1.2",
-        "Prathima":"1.8"
+        "Apollo Hospital":"1.4",
+        "Woodlands Hospital":"1.5",
+        "Excell Hospital":"1.2",
+        "Prathima Hospital":"1.8"
     }
 }
