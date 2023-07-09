@@ -18,7 +18,27 @@ def theatres():
 
 @nearme.route('/hospitals')
 def hospitals():
-    pass
+    with open('hospitals.json','r') as hospitals:
+        t = json.load(hospitals)
+    return render_template('hospitals.html',t_dict=t)
+
+@nearme.route('/eateries')
+def eateries():
+    with open('eateries.json','r') as eateries:
+        t = json.load(eateries)
+    return render_template('eateries.html',t_dict=t)
+
+@nearme.route('/petrol')
+def petrol():
+    with open('petrolstations.json','r') as petrol:
+        t = json.load(petrol)
+    return render_template('petrol.html',t_dict=t)
+
+@nearme.route('/banks')
+def banks():
+    with open('banks.json','r') as banks:
+        t = json.load(banks)
+    return render_template('banks.html',t_dict=t)
 
 if __name__ == "__main__":
     nearme.run(debug=True)

@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Theatres</title>
+    <title>Eateries</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    
 </head>
 <body>
-    {% for i in t_dict["petrol-stations"] %}
+    {% for i in t_dict["eateries"] %}
     <div>
-        <p>{{i}} is {{ t_dict["petrol-stations"][i] }} km away from you.</p>
+        <p>{{i}} is {{t_dict["eateries"][i]}} km away from you.</p>
     </div>
     {% endfor %}
 </body>
